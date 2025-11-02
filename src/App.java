@@ -35,7 +35,7 @@ public class App {
         System.out.printf("El número formado por los dígitos pares es %d %n", numPar);
         System.out.printf("El número formado por los dígitos pares es %d %n", numImpar);
         }catch(NumberFormatException e){
-            System.out.println("Erros, entrada no válida");
+            System.out.println("Error, entrada no válida");
         }catch(Exception e){
             System.out.println("Error inesperado");
         }
